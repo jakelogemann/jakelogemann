@@ -1,8 +1,8 @@
 
 [#report-card]
-:report-card: https://github-readme-stats.vercel.app/api?cache_seconds=86400&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&username=jakelogemann
+:report-card: https://github-readme-stats.vercel.app/api?cache_seconds=3600&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&username=jakelogemann
 image::{report-card}[My Report Card]
 
 [#top-languages]
-:top-langs: https://github-readme-stats.vercel.app/api/top-langs/?cache_seconds=86400&theme=tokyonight&layout=compact&hide_border=true&username=jakelogemann
+:top-langs: https://github-readme-stats.vercel.app/api/top-langs/?cache_seconds=3600&theme=tokyonight&layout=compact&hide_border=true&username=jakelogemann
 image::{top-langs}[My Top Languages]

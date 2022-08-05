@@ -1,0 +1,3 @@
+:report-card: https://github-readme-stats.vercel.app/api?count_private=true&show_icons=true&theme=material-palenight&include_all_commits=true&username=jakelogemann
+
+image::{report-card}[My GitHub Report Card]

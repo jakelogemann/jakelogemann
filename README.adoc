@@ -4,5 +4,5 @@
 image::{report-card}[My Report Card]
 
 [#top-languages]
-:top-langs: https://github-readme-stats.vercel.app/api/top-langs/?theme=tokyonight&layout=compact&hide_border=true&username=jakelogemann
+:top-langs: https://github-readme-stats.vercel.app/api/top-langs/?theme=tokyonight&hide_border=true&username=jakelogemann
 image::{top-langs}[My Top Languages]

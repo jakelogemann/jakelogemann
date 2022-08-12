@@ -1,0 +1,33 @@
+name: crate
+defaults:
+  run:
+    working-directory: crate
+env:
+  CARGO_TERM_COLOR: always
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths: ["crate/*", ".github/workflows/crate.yml"]
+  pull_request:
+    branches: [ "main" ]
+    paths: ["crate/*", ".github/workflows/crate.yml"]
+jobs:
+  build-debug:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: build my crate.
+      run: cargo build --verbose
+    - name: test my crate.
+      run: cargo test --verbose
+  build-release:
+    needs: [build-debug]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: build my crate.
+      run: cargo build --release --verbose
+    - name: test my crate.
+      run: cargo test --release --verbose

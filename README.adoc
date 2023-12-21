@@ -1,4 +1,0 @@
-:polis-org: link:https://github.com/polis-dev[polis-dev]
-:polis-dev: link:https://polis.dev[polis.dev]
-
-_You really want {polis-dev} (by {polis-org})_
